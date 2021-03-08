@@ -75,6 +75,6 @@ export default class Juego {
     if (this.scorePlayer1 === 21) return "Ganaste, Felicidades";
     else if (this.scorePlayer1 > this.scorePlayer2) return "Ganaste, Felicidades";
     else if (this.scorePlayer2 > 21) return "Ganaste, Felicidades";
-    else return "Perdiste vuelve a intentarlo";
+    else return "Perdiste vuelve a intentarlo!";
   }
 }
