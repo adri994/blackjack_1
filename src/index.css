@@ -1,0 +1,88 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --primary: #2f4f30;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fontText);
+  font-size: 1.6rem;
+  line-height: 2;
+  margin: 0;
+  background-color: #2f4f30;
+}
+
+.header {
+  background-color: var(--black);
+  padding: 0.8rem;
+}
+
+.header__title {
+  text-align: center;
+  color: var(--white);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.container {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.group-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.btn {
+  padding: 1.2rem;
+  border: 0;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  color: var(--white);
+  font-weight: 900;
+}
+
+.btn-new {
+  background-color: #dc3545;
+}
+
+.btn-play,
+.btn-stop {
+  background-color: #0d6fdc;
+}
+
+.player-one,
+.player-two {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.player-one__score,
+.player-two__score {
+  font-size: 3rem;
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.card {
+  width: 10rem;
+  position: relative;
+  margin-left: -7rem;
+  left: 10rem;
+}

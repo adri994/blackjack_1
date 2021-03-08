@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+  <script defer type="module" src="./index.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">Blackjack</h1>
+  </header>
+
+  <div class="container">
+    <div class="group-button">
+      <button id="newGame" class="btn btn-new">Juego nuevo</button>
+      <button id="takeCard" class="btn btn-play">Pedir carta</button>
+      <button id="stopGame" class="btn btn-stop">Detener</button>
+    </div>
+  </div>
+
+  <main>
+    <div class="player-one">
+      <h2 class="player-one__score">Jugador 1- <small>0</small></h2>
+
+      <div class="player-one__card" id="cards-one"></div>
+    </div>
+
+    <div class="player-two">
+      <h2 class="player-two__score">Jugador 2- <small>0</small></h2>
+      <div class="player-two__card" id="cards-two"></div>
+    </div>
+  </main>
+</body>
+</html>
